@@ -1,0 +1,44 @@
+.banner_bg {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0,0.80)),
+    url("../../images/webistebg.jpg");
+    background-repeat: no-repeat;
+    background-size : cover;
+    background-position:center;
+    height: 100vh;
+}
+.banner_heading_title{
+    font-size: 50px;
+    color:#fff;
+}
+.name{
+    color: orangered;
+    padding: 3px 3px;
+}
+.fab{
+  color:#fff;
+  padding: 5px;
+  border-radius: 50%;
+  font-size: 50px;
+}
+.fab:hover{
+  color:green;
+  background-color: #fff; 
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+
+/*
+.banner_heading{
+  font-family: 'Courier New', Courier, monospace;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,50%);
+}
+
+@media screen  {
+  
+} */
