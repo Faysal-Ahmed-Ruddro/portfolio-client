@@ -15,8 +15,17 @@ function NavigationBar() {
     <>
       <IconContext.Provider value={{ color: "#fff" }}>
         <div className="navbar ">
-          <h2 style={{ color: "#fff", marginLeft: "2rem", marginTop: "15px" }}>
-            Faysal Ahmed{" "}
+          <h2
+            style={{
+              color: "#fff",
+              marginLeft: "2rem",
+              marginTop: "15px",
+            }}
+          >
+            Faysal
+            <span style={{color: "orangered",}}>
+              Ahmed
+            </span>{" "}
           </h2>
           <Link to="#" className="menu-bars">
             <FaIcons.FaBars onClick={showSidebar} />

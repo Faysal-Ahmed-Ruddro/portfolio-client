@@ -13,16 +13,18 @@
 .name{
     color: orangered;
     padding: 3px 3px;
+    border-bottom: 2px solid orangered;
 }
 .fab{
   color:#fff;
-  padding: 5px;
+  padding: 10px;
   border-radius: 50%;
-  font-size: 50px;
+  font-size: 20px;
+  margin: 5px
 }
 .fab:hover{
-  color:green;
-  background-color: #fff; 
+  color:#fff;
+  background-color: rgb(15, 91, 231); 
   padding: 10px;
   border-radius: 50%;
   font-size: 20px;
