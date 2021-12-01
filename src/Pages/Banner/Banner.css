@@ -1,46 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .banner_bg {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0,0.80)),
+  background-color:#060b26 ;
+  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url("../../images/webistebg.jpg");
-    background-repeat: no-repeat;
-    background-size : cover;
-    background-position:center;
-    height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+  height: 100vh;
 }
-.banner_heading_title{
+.banner_heading_title {
+  font-size: 50px;
+  color: #fff;
+}
+
+.heading_IAM {
+  background-color: orangered;
+  border-radius: 2px;
+  padding: 5px;
+}
+.name {
+  color: orangered;
+  font-weight: 700;
+  border-bottom: 2px solid orangered;
+}
+.typical-text {
+  color: orangered;
+}
+.fab {
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.fab:hover {
+  color: #fff;
+  background-color: #092cf3;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+.social_link {
+  display: inline-block;
+  text-align: center;
+  position: absolute;
+  top: 35%;
+  left: 0;
+}
+.social_link ul {
+  position: fixed;
+  padding: 0 10px;
+}
+.resume_btn{
+  text-align: center;
+  width:200px;
+  background: transparent;
+  border : 1px solid orangered;
+  padding: 10px 15px;
+  margin: 2px;
+  transition: 1s all ease;
+}
+.resume_btn:hover , .hire_btn:hover{
+  color:#060b26;
+  background-color: orangered;
+}
+.resume_btn a {
+  text-decoration: none;
+  color:#fff;
+  font-size: 20px;
+}
+.resume_btn a:hover {
+  color: #060b26;
+}
+.hire_btn{
+  text-align: center;
+  width:200px;
+  color: #fff;
+  font-size: 20px;
+  background: transparent;
+  border : 1px solid orangered;
+  padding: 10px 15px;
+  margin: 2px;
+}
+
+
+@media only screen and (max-width: 425px) {
+  .banner_heading {
+    font-size: 18px;
+    color: #fff;
+    padding:0 10px;
+  }
+  .social_link ul {
+    padding: 0;
+  }
+  .banner_heading_title {
     font-size: 50px;
-    color:#fff;
+  }
 }
-.name{
-    color: orangered;
-    padding: 3px 3px;
-    border-bottom: 2px solid orangered;
-}
-.fab{
-  color:#fff;
-  padding: 10px;
-  border-radius: 50%;
-  font-size: 20px;
-  margin: 5px
-}
-.fab:hover{
-  color:#fff;
-  background-color: rgb(15, 91, 231); 
-  padding: 10px;
-  border-radius: 50%;
-  font-size: 20px;
-}
-
-
-/*
-.banner_heading{
-  font-family: 'Courier New', Courier, monospace;
-    color:#fff;
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform: translate(-50%,50%);
-}
-
-@media screen  {
-  
-} */
