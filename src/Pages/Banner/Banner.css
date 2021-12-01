@@ -4,13 +4,7 @@
 }
 .banner_bg {
   background-color:#060b26 ;
-  /* background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url("../../images/webistebg.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center; */
   height: 100vh;
-
 }
 .banner_bg canvas{
   position: absolute;

@@ -1,21 +1,21 @@
 import React from "react";
 import "./About.css";
-import { Col, Container, Row} from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import user from "../../images/user.png";
 import NavigationBar from "../Shared/NavigationBar/NavigationBar";
 
 const About = () => {
   return (
     <div className="about_bg">
-      <NavigationBar style={{ zIndex: "2" }} />
-      <Container  className="about_container ">
+      <NavigationBar />
+      <Container className="about_container ">
         <div className="d-flex py-2 ps-5">
           <h1 className="text-white fw-5 fs-1">About</h1>
           <hr className="w-100 about_hr" />
         </div>
         <Row>
           <Col xs={12} md={6} lg={6}>
-            <div data-aos="flip-up" className="about_left px-5">
+            <div className="about_left px-5">
               <h4>
                 Faysal
                 <span
@@ -40,15 +40,94 @@ const About = () => {
                   company.
                 </i>
               </p>
+              <hr className="w-75 text-white" />
+              <div>
+                <h4
+                  style={{
+                    color: "orangered",
+                    fontSize: "25px",
+                    borderBottom: "2px solid orangered",
+                    display: "inline",
+                  }}
+                >Education:</h4>
+                <ul>
+                  <li className="text-white fs-5">
+                    Diploma In Engineering (Computer)
+                    <p className="fs-6">SEPT-2015 to SEPT-2019</p>
+                  </li>
+                  <li className="text-white fs-6">
+                    Secondary School Certificate (S.S.C)
+                    <p className="fs-6">FEB-2015</p>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4
+                  style={{
+                    color: "orangered",
+                    fontSize: "25px",
+                    borderBottom: "2px solid orangered",
+                    display: "inline",
+                  }}
+                >
+                  Additional:
+                </h4>
+                <ul>
+                  <li className="text-white fs-5">
+                    Complete Web Development with Programming Hero
+                    <p className="fs-6">JULY-2021 to PRESENT</p>
+                  </li>
+                </ul>
+              </div>
             </div>
           </Col>
           <Col xs={12} md={6} lg={6}>
             <div className="about_right">
-              <img data-aos="flip-up" src={user} alt="user " />
+              <img width="100%" data-aos="flip-up" src={user} alt="user " />
             </div>
           </Col>
         </Row>
       </Container>
+      <div data-aos="fade-right" className="social_link">
+        <ul>
+          <li>
+            <a
+              href="https://github.com/Faysal-Ahmed-Ruddro"
+              target="_blank"
+              rel="noopener noreferrer "
+            >
+              <i className="fab fa-github "></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009124013953"
+              target="_blank"
+              rel="noopener noreferrer "
+            >
+              <i className="fab fa-facebook "></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009124013953"
+              target="_blank"
+              rel="noopener noreferrer "
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100009124013953"
+              target="_blank"
+              rel="noopener noreferrer "
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
