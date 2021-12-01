@@ -1,13 +1,46 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import "./Banner.css";
 import Typical from "react-typical";
 import NavigationBar from "../Shared/NavigationBar/NavigationBar";
+import { tsParticles, MoveDirection } from "tsparticles";
+
 
 const Banner = () => {
+  const BannerRef = useRef()
+  useEffect(()=>{
+    tsParticles.load(BannerRef, {
+      background: {
+        color: "transparent",
+      },
+      particles: {
+        color: {
+          value: "#fff",
+        },
+        move: {
+          bounce: true,
+          direction: MoveDirection.bottom,
+          enable: true,
+          random: false,
+          straight: false,
+        },
+        opacity: {
+          random: true,
+          value: 0.5,
+        },
+        shape: {
+          type: "circle",
+        },
+        size: {
+          random: true,
+          value: 5,
+        },
+      },
+    });
+  },[])
   return (
-    <div className="banner_bg">
-      <NavigationBar />
+    <div ref={BannerRef} className="banner_bg">
+      <NavigationBar/>
       <Container>
         <Row>
           <Col xs={12} md={12} lg={12}>
