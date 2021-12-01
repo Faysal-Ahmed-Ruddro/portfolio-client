@@ -15,7 +15,7 @@ const About = () => {
         </div>
         <Row>
           <Col xs={12} md={6} lg={6}>
-            <div className="about_left px-5">
+            <div data-aos="zoom-in-up" className="about_left px-5">
               <h4>
                 Faysal
                 <span
@@ -49,7 +49,9 @@ const About = () => {
                     borderBottom: "2px solid orangered",
                     display: "inline",
                   }}
-                >Education:</h4>
+                >
+                  Education:
+                </h4>
                 <ul>
                   <li className="text-white fs-5">
                     Diploma In Engineering (Computer)
@@ -83,7 +85,13 @@ const About = () => {
           </Col>
           <Col xs={12} md={6} lg={6}>
             <div className="about_right">
-              <img width="100%" data-aos="flip-up" src={user} alt="user " />
+              <img
+                width="100%"
+                data-aos="fade-up"
+                data-aos-anchor-placement="top-bottom"
+                src={user}
+                alt="user "
+              />
             </div>
           </Col>
         </Row>
