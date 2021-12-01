@@ -1,0 +1,33 @@
+.about_bg{
+    background-color:#020518;
+    height: 100%;
+}
+.about_container{
+     background-color:#ffffff0a;
+     height: 100vh;
+}
+/* .about_left{
+  background-color:rgba(255, 255, 255, 0.308);  
+} 
+*/
+.about_right{
+	border-left: 2px solid ;
+}
+h2,h4,h5 , p{
+    color:#fff
+}
+.about_hr{
+    margin-top: 30px;
+    border-bottom: 1px solid orangered;
+}
+
+/* progress bar  */
+.skills .progress .skill {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family: "Poppins",sans-serif;
+    color: #fff;
+}

@@ -54,10 +54,12 @@
   padding: 0 10px;
 }
 .resume_btn{
+  color:#fff;
   text-align: center;
   width:200px;
   background: transparent;
   border : 1px solid orangered;
+  border-radius: 20px;
   padding: 10px 15px;
   margin: 2px;
   transition: 1s all ease;
@@ -74,16 +76,7 @@
 .resume_btn a:hover {
   color: #060b26;
 }
-.hire_btn{
-  text-align: center;
-  width:200px;
-  color: #fff;
-  font-size: 20px;
-  background: transparent;
-  border : 1px solid orangered;
-  padding: 10px 15px;
-  margin: 2px;
-}
+
 
 
 @media only screen and (max-width: 425px) {

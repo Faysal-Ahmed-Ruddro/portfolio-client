@@ -40,18 +40,20 @@ const Banner = () => {
               <hr className="text-white w-25 mx-auto" />
             </div>
             <div style={{ textAlign: "center" }}>
-              <button data-aos="fade-right" className="resume_btn">
-                <a
-                  href="https://drive.google.com/file/d/1MJJDYkY03c2t4l0AbLOv9X2mQ0MbMtzk/view?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="https://drive.google.com/file/d/1MJJDYkY03c2t4l0AbLOv9X2mQ0MbMtzk/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button data-aos="fade-right" className="resume_btn">
                   Resume
-                </a>
-              </button>
-              <button data-aos="fade-left" className="hire_btn">
-                Hire Me
-              </button>
+                </button>
+              </a>
+              <a href="##" >
+                <button data-aos="fade-left" className="resume_btn">
+                  Hire Me
+                </button>
+              </a>
             </div>
           </Col>
         </Row>

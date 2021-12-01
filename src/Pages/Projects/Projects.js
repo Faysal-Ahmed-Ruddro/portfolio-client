@@ -1,11 +1,12 @@
 import React from 'react';
+import "./Projects.css"
 
 const Projects = () => {
     return (
         <div>
-            <h2>Hello</h2>
+            <h2 className="text-danger">Hello</h2>
         </div>
     );
 };
 
-export default Projects;<h2>Hello</h2>
+export default Projects;
