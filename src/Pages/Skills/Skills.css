@@ -1,0 +1,10 @@
+.skills-bg {
+  background-color: #020518;
+  position: scroll;
+  height: 100%;
+}
+.skills_container {
+  background-color: #ffffff0a;
+  z-index: -1;
+  height: 100%;
+}

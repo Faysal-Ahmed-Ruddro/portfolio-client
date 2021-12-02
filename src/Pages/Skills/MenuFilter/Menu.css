@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.item-sub-container {
+  display: inline-block;
+  border: 2px solid orangered;
+  overflow: hidden;
+}
+
+.item-sub-container:hover img {
+  transition: 0.5s all ease;
+  transform: scale(1.1);
+}
+.item-sub-container:hover h3 {
+  color: orangered;
+}

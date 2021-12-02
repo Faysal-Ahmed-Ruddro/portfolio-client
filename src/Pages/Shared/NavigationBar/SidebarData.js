@@ -17,15 +17,15 @@ export const SidebarData = [
     cName: "nav-text",
   },
   {
-    title: "Projects",
-    path: "/Projects",
-    icon: <AiIcons.AiFillProject />,
+    title: "PROJECTS",
+    path: "/projects",
+    icon: <AiIcons.AiFillProject />, 
     cName: "nav-text",
   },
   {
-    title: "Team",
-    path: "/team",
-    icon: <IoIcons.IoMdPeople />,
+    title: "SKILLS",
+    path: "/skills",
+    icon: <AiIcons.AiFillSetting />, 
     cName: "nav-text",
   },
   {

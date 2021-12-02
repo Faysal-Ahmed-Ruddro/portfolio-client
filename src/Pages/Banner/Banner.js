@@ -18,22 +18,22 @@ const Banner = () => {
           value: "#fff",
         },
         move: {
-          bounce: false,
-          direction: MoveDirection.bottom,
+          bounce: true,
+          direction: MoveDirection.up,
           enable: true,
-          random: false,
-          straight: false,
+          random: true,
+          straight: true,
         },
         opacity: {
           random: true,
-          value: 0.5,
+          value:.5,
         },
         shape: {
           type: "circle",
         },
         size: {
           random: true,
-          value: 10,
+          value: 15,
         },
       },
     });
