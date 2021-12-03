@@ -7,7 +7,8 @@ import Menu from "./MenuFilter/Menu";
 import Button from "./MenuFilter/Button";
 
 const allCategories = [
-  "ALL",...new Set(skillData.map((item) => item.category))
+  "ALL",
+  ...new Set(skillData.map((item) => item.category)),
 ];
 
 const Skills = () => {
